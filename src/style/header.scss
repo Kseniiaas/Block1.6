@@ -1,0 +1,90 @@
+.header__inner {
+    display: flex;
+    flex-shrink: 0;
+    background-color: #FFFFFF;
+    justify-content:space-around;
+    padding: 0;
+    width: 100%;
+    height: auto;
+}
+
+.header__burger-button {
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    margin-top: 24px;
+    margin-left: 16px;
+    margin-bottom: 24px;
+    margin-right: 16.73px;
+    border: none;
+    background-color: #FFFFFF;
+}
+
+.header__logo {
+    width: 96.548px;
+    height: 50.815px;
+    flex-shrink: 0;
+    margin-top: 18.59px;
+    margin-bottom: 18.59px;
+    margin-left: 0;
+    margin-right: 16.73px;
+    padding: 0;
+}
+
+.header__divider-two {
+    width: 2px;
+    height: 32px;
+    flex-shrink: 0;
+    border-radius: 1px;
+    background: #EAEAEA;
+    padding: 0;
+    margin-top: 28px;
+    margin-left: 0;
+    margin-bottom: 28px;
+    margin-right: 20px;
+}
+
+.header__call-button {
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    border: none;
+    background-color: #FFFFFF;
+    padding: 0;
+} 
+
+.header__chat-button,
+.header__profile-button {
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    border: none;
+    background-color: #FFFFFF;
+    padding: 0;
+}
+
+.header__profile-button:hover,
+.header__checkstatus-button:hover,
+.header__repair-button:hover, 
+.header__repair-button:hover {
+    opacity: 0.33;
+    transition: 0.9s;
+}
+
+.header__repair-button, 
+.header__checkstatus-button {
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+    padding: 0;
+    margin-top: 24px;
+    margin-left: 0;
+    margin-bottom: 24px;
+    margin-right: 16px;
+    border: none;
+    background-color: #FFFFFF;
+}

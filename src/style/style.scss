@@ -1,0 +1,65 @@
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'TTLakes';
+    font-style: normal;
+    font-size: 14px;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    color: #1B1C21;
+    background-color: #F8F8F8;
+    max-width: 100%;
+    width: 100%;
+    margin : 0 auto;
+    overflow: visible;
+}
+
+main {
+    border-top: 1px solid #D9FFF5;
+    max-width: 1140px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.conteiner__image img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+body::after {
+    content: "";
+    width: 24px;
+    height: 120px;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background-image: linear-gradient(to right, #ffffff00, #ffffffe0);
+    z-index: 1;
+}
+
+.blured {
+    filter: opacity(0.15);
+}
+
+
+
+
+
+ 
+ 
+
+
